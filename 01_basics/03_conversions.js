@@ -38,4 +38,29 @@
 let value = 7;
 let neg = -value;
 
-console.log(neg);
+// console.log(neg);
+
+
+                                                // power = 3^2, in js => 3**2
+
+// console.log(2**5);
+
+                                                        // Concatenation
+
+// let f_name = "Anmol"
+// let s_name = " Upadhyay"
+
+// console.log(f_name + s_name);
+
+
+console.log(1 + "2");
+console.log("1" + 2);
+
+
+//  how js understands that it should be 12 
+
+console.log("1" + 2 + 2);         // 122
+console.log(1 + "2" + 2);         // 122
+console.log(1 + 2 + "2");         // 32
+
+// because of ecmascript type conversion
