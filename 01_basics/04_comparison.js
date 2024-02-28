@@ -6,4 +6,4 @@ console.log(null >= 0)  // true
 
 // strict check  { === }
 
-console.log( "2" === 2 ) // return false because it also checks the datatype with value
+console.log("2" === 2) // return false because it also checks the datatype with value
