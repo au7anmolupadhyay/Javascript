@@ -1,0 +1,31 @@
+Javascript is SYNCHRONOUS & SINGLE-THREADED language
+
+Single-threaded means each piece of code runs one after the other in a single sequence, and there is only one thread of execution. Meaning it has only one call stack and one memory heap.
+
+Synchronous means that it executes one operation at a time, in a specific order.
+
+
+
+Everything in the javascript happens inside the execution context
+
+        Execution context contains two components:
+1. Memory component (Environment Variable)
+2. Code Component (Thread of execution)
+
+In Environment variable it contains the variable in key:value format, the functions (whole function code).
+
+Execution Context is created in two phases
+        1st -> Memory Creation phase (crucial phase)
+        2nd -> Execution phase
+        
+        Here js allocates memory to all the variables and functions, formal parameters.
+        
+        every variable whether initialized or not is assigned "undefined", and the function is with the whole code {..}
+
+        whenever a function is invoked new execution context is invoked inside the code component
+
+        as the return statement comes, it is asked to return the control of the program back to the original execution context
+
+CALL STACK MAINTAINS THE ORDER OF EXECUTIONS OF EXECUTION CONTEXT 
+
+CALL STACK is also known with various names: program stack, control stack, runtime stack, machine stack, execution stack
