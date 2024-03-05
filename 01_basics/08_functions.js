@@ -24,3 +24,4 @@ output
 
 */
 
+// everything declared outside any function is of global space
