@@ -25,3 +25,6 @@ output
 */
 
 // everything declared outside any function is of global space
+
+var x = "Anmol";
+function b
