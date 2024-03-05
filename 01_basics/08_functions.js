@@ -33,3 +33,12 @@ function b(){
 
 // check in inspect > sources > use debugger and check are you able to see y and x or any of them, this will clear you the doubt of which is inside global space and which is not
 
+/*
+  shortest JS program is an empty code
+     when you will write window you will see a list of objects 
+     this is what gets initializde even if you dont code a single word
+
+     this and window are same 
+     check for      this === window , will return true;
+
+*/
