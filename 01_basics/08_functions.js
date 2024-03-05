@@ -27,4 +27,9 @@ output
 // everything declared outside any function is of global space
 
 var x = "Anmol";
-function b
+function b(){
+    var y = "Cristiano"
+}
+
+// check in inspect > sources > use debugger and check are you able to see y and x or any of them, this will clear you the doubt of which is inside global space and which is not
+
