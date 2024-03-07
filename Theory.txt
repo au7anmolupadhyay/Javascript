@@ -45,3 +45,7 @@ b()
 
        it will return undefined, if you want to invoke c() you need to invoke inside the scope of b()
 outside it will give error not defined
+
+
+SCOPE CHAIN 
+can be defined as the lexical environment and parent reference.
