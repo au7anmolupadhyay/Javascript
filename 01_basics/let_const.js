@@ -31,3 +31,12 @@ const b;
 b = 7;          // not possible in const, declare and initialize there itself
 
 */
+
+
+/*
+
+Reference Error VS Syntax Error VS Type Error
+examples:
+
+
+*/
