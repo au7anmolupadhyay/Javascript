@@ -29,3 +29,19 @@ Execution Context is created in two phases
 CALL STACK MAINTAINS THE ORDER OF EXECUTIONS OF EXECUTION CONTEXT 
 
 CALL STACK is also known with various names: program stack, control stack, runtime stack, machine stack, execution stack
+
+
+Lexical Environment is fundamental concept of that help and manage variables and functions in different scope
+
+
+function b(){
+        var x = 10;
+        function c(){
+                console.log(x);
+        }
+}
+b()
+
+
+
+//       it will return 
