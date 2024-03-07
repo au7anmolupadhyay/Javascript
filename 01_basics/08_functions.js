@@ -42,3 +42,4 @@ function b(){
      check for      this === window , will return true;
 
 */
+
