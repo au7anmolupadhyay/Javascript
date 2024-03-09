@@ -32,16 +32,33 @@ b = 7;          // not possible in const, declare and initialize there itself
 
 
 --------
-// Syntax error :  if you try to initialize const later it will give you syntax error
-// Typer error: if you try to re-intialize the same const it will give type error because const is for constant cant be changed
+// Syntax error :  if you try to initialize const later it will give you syntax error, no declaration and initialization too gives this error.          re-declaring the same let 
+// Typer error: if you try to re-intialize the same const it will give type error because const is for constant cant be changed.
 */
 
 
 
 /*
 
-Reference Error VS Syntax Error VS Type Error
-examples:
+Reference Error -> in temporal dead zone   
+
+console.log(a)
+let a = 10;
+-----------------------
+
+Syntax Error -> 
+
+let a = 70;
+let a = 80;
+-----------------------
+
+Type Error -> 
+
+const a; or const a = 9;
+a = 90;
+
+
+
 
 
 */
