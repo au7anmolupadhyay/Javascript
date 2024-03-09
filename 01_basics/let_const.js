@@ -30,7 +30,12 @@ a = 10;         // is possible declare first and initialize it later in let
 const b;
 b = 7;          // not possible in const, declare and initialize there itself
 
+
+--------
+// Syntax error :  if you try to initialize const later it will give you syntax error
+// Typer error: if you try to re-intialize the same const it will give type error because const is for constant cant be changed
 */
+
 
 
 /*
