@@ -8,6 +8,10 @@ console.log(a)      //  this will give you error of "not defined" but it is hois
                     //  and memory is given in the "script" in (seprate memory space) not in global as given to "var" therefore let and const are in "TDZ" (Temporal Dead Zone)
 
                     //      TDZ (temporal dead zone) - is the time from being hoisted till getting initialized with the value.
+
+                    // The Temporal Dead Zone (TDZ) is a concept in JavaScript related to the hoisting behavior of variables declared with let and const keywords. In JavaScript, variables declared with var are hoisted to the top of their scope and initialized with undefined. However, variables declared with let and const are also hoisted, but they are not initialized until the execution reaches the corresponding declaration statement.
+
+                    // The Temporal Dead Zone is the period between the start of the scope and the point where the variable is declared.
                     //      REFERENCE ERROR - error when you are trying to access a "let" or "const" before initialization.
                                                                             OR
                     //                        you are trying to access a variable let or const that has not been defined in the scope. (scope is important)
