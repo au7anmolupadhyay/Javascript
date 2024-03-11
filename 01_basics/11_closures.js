@@ -62,3 +62,13 @@ z() // but it will execute and will give output 7
 
 //when you execute this you will get to know about the closure 
 
+/*
+Uses of Closures:
+
+1) Module Design Pattern
+2) Currying
+3) functions like once
+4) Memoize
+5) Maintaining state in async world
+6) Set Timeouts
+many more...
