@@ -72,3 +72,4 @@ Uses of Closures:
 5) Maintaining state in async world
 6) Set Timeouts
 many more...
+*/
