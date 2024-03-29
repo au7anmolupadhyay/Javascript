@@ -48,7 +48,7 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));             // this gives all the output in the array therefore you can apply loop to access separately
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
