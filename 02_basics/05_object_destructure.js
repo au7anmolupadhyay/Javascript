@@ -12,6 +12,8 @@ const {courseInstructor: instructor} = course           //whenever you see it in
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+//👇 it is json format
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
