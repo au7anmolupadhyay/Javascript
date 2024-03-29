@@ -21,8 +21,8 @@ console.log(real_another_array);
 
 
 console.log(Array.isArray("Hitesh"))            // returns true or false after checking whether it is an array or not
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.from("Hitesh"))               // converts into array -> ['H' ,'i' , ....]
+console.log(Array.from({name: "hitesh"})) // interesting        gives empty array until you tell either key or value which has to be converted in array
 
 let score1 = 100
 let score2 = 200
