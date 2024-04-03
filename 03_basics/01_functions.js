@@ -29,7 +29,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);     here you will get to know that console is not as same as return, it returns undefined, and console.logs "8".
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "sam"){        // here it will overwrite if argument is passed else sam will be passed as parameter 
     if(!username){
         console.log("PLease enter a username");
         return
