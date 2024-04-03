@@ -19,7 +19,7 @@ function sayMyName(){
 
 function addTwoNumbers(number1, number2){
 
-    // let result = number1 + number2
+    // let result = number1 + number2               this comment when uncommented then it is going to return 8 else it would return undefined
     // return result
     return number1 + number2
 }
