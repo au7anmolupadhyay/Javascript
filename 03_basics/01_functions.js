@@ -34,11 +34,11 @@ function loginUserMessage(username = "sam"){
         console.log("PLease enter a username");
         return
     }
-    return `${username} just logged in`
+    return `${username} just logged in`             //   here it wont print anything in the console or terminal as it is only returning
 }
 
 // console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage())          ->      "undefined just logged in"
 
 
 function calculateCartPrice(val1, val2, ...num1){
