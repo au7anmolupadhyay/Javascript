@@ -11,7 +11,8 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){            when we define our function all the data inside is "PARAMETERS"
+                                                //  but when we call/invoke a function passed data are called "ARGUMENTS"
 
 //     console.log(number1 + number2);
 // }
