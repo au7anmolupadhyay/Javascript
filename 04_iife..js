@@ -1,6 +1,6 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-
+//      global scope ke pollution se bachne ke lie hum IIFE ka use krte hai         isly isme ()() lagate hai
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
