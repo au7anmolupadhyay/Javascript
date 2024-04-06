@@ -1,3 +1,5 @@
+// if asked what is the global object in the browser -> it is "WINDOW", but when working in nodejs aur standalone engine it is {} therefore "empty object"
+
 const user = {
     username: "hitesh",
     price: 999,
