@@ -22,6 +22,9 @@ const user = {
 //     console.log(this.username);
 // }
 
+
+
+
 // chai()
 
 // const chai = function () {
@@ -45,7 +48,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"})           // to return object you need to close them in parenthesis when working with arrow function
 
 
 console.log(addTwo(3, 4))
