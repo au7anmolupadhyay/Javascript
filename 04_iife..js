@@ -6,6 +6,10 @@
     console.log(`DB CONNECTED`);
 })();
 
+//  👆 this is NAMED IIFE
+
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh')
+
+//      👆 this is UNNAMED IIFE
