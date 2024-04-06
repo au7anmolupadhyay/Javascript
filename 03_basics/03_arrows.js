@@ -1,5 +1,5 @@
 // if asked what is the global object in the browser -> it is "WINDOW", but when working in nodejs aur standalone engine it is {} therefore "empty object"
-/*
+
 const user = {
     username: "hitesh",
     price: 999,
@@ -57,16 +57,24 @@ console.log(addTwo(3, 4))
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
-*/
 
 
 
-function chai (){
-    console.log(this);      // gives various methods
 
-    let username = "Anmol"
-    console.log(this.username);         // this gives undefined  therefore this keyword only works with object
+// function chai (){
+//     console.log(this);      // gives various methods
 
+//     let username = "Anmol"
+//     console.log(this.username);         // this gives undefined  therefore this keyword only works with object
+
+// }
+// chai();
+
+const fun = () => {
+    let username = "CR7"
+    console.log(this.username);     // undefined
+
+    console.log(this)       // {}       empty object
 }
 
-chai();
+fun();
