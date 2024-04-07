@@ -50,3 +50,15 @@ if (userLoggedIn && debitCard && 2==3) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+
+
+
+// **********************************************************************************************************************
+
+if(2==2){
+    const power = 100;
+    // var power = 200;         dont use var as it is also accessible outside the scope
+    console.log(power);
+}
+console.log(power);
