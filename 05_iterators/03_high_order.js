@@ -16,6 +16,7 @@ for (const greet of greetings) {
 
 // Maps
     //       they store unique values and also follow the same order
+    //       they are not iterable, therefore isme "for in" loop nahi chal skta
 
 const map = new Map()
 map.set('IN', "India")
