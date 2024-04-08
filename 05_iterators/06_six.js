@@ -53,26 +53,3 @@ const ed  = books.filter((bk) => (bk.publish >= 1990 && bk.genre === "Non-Fictio
   console.log(ed);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   let userBooks = books.filter( (bk) => bk.genre === 'History')
-
-//   userBooks = books.filter( (bk) => { 
-//     return bk.publish >= 1995 && bk.genre === "History"
-// })
-//   console.log(userBooks);
