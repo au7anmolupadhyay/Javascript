@@ -44,9 +44,9 @@ const chai =  () => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2              // IMPLICIT RETURN HAI IDHAR 
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+// const addTwo = (num1, num2) => ( num1 + num2 )           // IDHR RETURN HORA HAI IMPLICIT BECAUSE PARENTHESIS LAGAYE HAI
 
 const addTwo = (num1, num2) => ({username: "hitesh"})           // to return object you need to close them in parenthesis when working with arrow function
 
