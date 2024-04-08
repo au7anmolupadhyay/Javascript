@@ -12,6 +12,10 @@
 
 
 //                                                               FILTER
+
+// filter only returns the true statements in the condition like returns number greater than 4, refer to the next line
+
+
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter( (num) => {
