@@ -13,7 +13,8 @@ for (const key in myObject) {
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
-for (const key in programming) {
+for (const key in programming) {        // jab array mein key dkhte hai toh wo index dikhata hai jo 0 se n-1 tk jata hai
+                                        //   and this was the main reason of creating objects ki key kuch bhi bana skte hai hum
     //console.log(programming[key]);
 }
 
