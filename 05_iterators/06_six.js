@@ -41,9 +41,38 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
 
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
-})
-  console.log(userBooks);
+
+
+//   const myBook = books.filter( (bk) => {         // explicit return , by mentioning return keyword inside "{}"
+//     return bk.genre == "History"
+//   })
+
+const ed  = books.filter((bk) => (bk.publish >= 1990 && bk.genre === "Non-Fiction") )           // implicit return using "()" in that very line 
+
+  console.log(ed);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let userBooks = books.filter( (bk) => bk.genre === 'History')
+
+//   userBooks = books.filter( (bk) => { 
+//     return bk.publish >= 1995 && bk.genre === "History"
+// })
+//   console.log(userBooks);
