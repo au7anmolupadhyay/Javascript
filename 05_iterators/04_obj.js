@@ -5,6 +5,8 @@ const myObject = {
     swift: "swift by apple"
 }
 
+// Jaise normal array mein "for of" lag gaya tha, pr object mein "for in" loop lagate hai
+
 for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
