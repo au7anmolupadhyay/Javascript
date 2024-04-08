@@ -30,6 +30,8 @@ for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
 
+//  object mein jo for of hota hai na wo nahi iterable hota object par, dusre trike hai uspr krne ke
+
 const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'
