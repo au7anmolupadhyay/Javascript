@@ -3,11 +3,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 //     FOR EACH mein -> call back function pass krte hai hum 
 
-// coding.forEach( function (val){
+// coding.forEach( function (val){              // yeh jo hai yeh normal function definition hai bas function ka name ommit kra hai 
 //     console.log(val);
 // } )
 
-// coding.forEach( (item) => {
+// coding.forEach( (item) => {                  // similarly yahan par bhi function definition jo arrow function se kr rhe hai isme humne ommit kra hai "=" aur variable jisme arrow function ko mostly store krwate hai
 //     console.log(item);
 // } )
 
