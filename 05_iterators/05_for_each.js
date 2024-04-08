@@ -11,6 +11,9 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // } )
 
+
+// jaise yahan pr hum printMe function kaa aage foreach mein sirf reference dekr same kaam karwa skte hai
+
 // function printMe(item){
 //     console.log(item);
 // }
