@@ -41,3 +41,26 @@ title.style.fontSize = "2.5rem"
 title.style.fontSize = "250px"
 '250px'
 ___________________________________________________________________________________________________________________________
+
+
+    CONTENT:
+
+    title.innerHTML
+    'DOM Manipulation'
+
+    title.innerText
+    'DOM Manipulation'
+    
+    title.textContent
+    'DOM Manipulation'
+
+
+difference between these
+
+->  "innerText" only returns the text that is visible on the website
+
+-> if there is any display property that is hidden due css property you then you can use "textContent" it will return whole text that is written in html file whether it is visible on the website or not
+
+->  "innerHTML" this returns the whole code inside that particular tag where this property is applied
+for eg. if there is a <P> tag where text is wriiten and inside it there is <span> tag it will also show you that tag with the text, where as in other only the "text" will be returned
+    
