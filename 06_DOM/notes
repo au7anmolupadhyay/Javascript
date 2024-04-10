@@ -117,3 +117,21 @@ turnGreen.style.backgroundColor = 'green'
 
 turnGreen.innerText = "FOOTBALL"
 'FOOTBALL'
+_______________________________________________________________________________________________________________________________
+
+
+when you get nodelist you might think it is an array but it is not array but similar to array so you cannot use all functions or properties of array here, but some properties can be used,
+
+to make sure whether it is an array or not see the prototypes, if you find map, and other function it is an array else not
+see eg:
+
+👇
+
+document.querySelectorAll('li')
+NodeList(4) [li, li, li, li]
+
+const first = document.querySelectorAll('li')
+undefined
+
+first[0].style.color="green"
+'green'
