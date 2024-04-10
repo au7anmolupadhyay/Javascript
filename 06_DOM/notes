@@ -45,13 +45,13 @@ ________________________________________________________________________________
 
     CONTENT:
 
-    title.innerHTML
+1)    title.innerHTML
     'DOM Manipulation'
 
-    title.innerText
+2)    title.innerText
     'DOM Manipulation'
     
-    title.textContent
+3)   title.textContent
     'DOM Manipulation'
 
 
@@ -63,4 +63,52 @@ difference between these
 
 ->  "innerHTML" this returns the whole code inside that particular tag where this property is applied
 for eg. if there is a <P> tag where text is wriiten and inside it there is <span> tag it will also show you that tag with the text, where as in other only the "text" will be returned
-    
+
+
+
+para.innerText
+'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis beatae asperiores id commodi optio?'
+
+
+para.textContent
+'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis beatae asperiores id commodi optio? Cristiano Ronaldo '
+
+
+para.innerHTML
+'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis beatae asperiores id commodi optio? <span style="display: none;">Cristiano Ronaldo</span> '
+___________________________________________________________________________________________________________________________
+
+document.querySelector      -> this selector only selects the first one not all
+
+
+document.querySelector('h2')
+<h2>​Lorem, ipsum dolor sit amet consectetur​</h2>​
+
+document.querySelector('#title')
+<h1 id=​"title" class=​"heading">​DOM Manipulation​</h1>
+
+document.querySelector('.heading')
+<h1 id=​"title" class=​"heading">​DOM Manipulation​</h1>​
+
+document.querySelector('input[type= "password"]')
+<input type=​"password" name=​"Pass" id=​"#password">​
+
+
+
+-> see the html code for ul of sports, we are trying to select the first list item and style it accordingly
+
+document.querySelector('ul')
+<ul>​…​</ul>​
+
+const myUl = document.querySelector('ul')
+undefined
+
+myUl.querySelector('li')
+<li>​::marker​"football"</li>​
+
+const turnGreen = myUl.querySelector('li')
+undefined
+
+turnGreen.style.backgroundColor = 'green'
+'green'
+
