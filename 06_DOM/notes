@@ -1,0 +1,43 @@
+Let's see all the dom manipulations
+__________________________________________________________________________________________________________________________
+
+
+document.getElementById('title')
+
+document.getElementById('title').id
+'title'
+
+document.getElementById('title').class              // this does not return the class name because inside document it is    portrayed in the form of className
+undefined
+
+document.getElementById('title').className
+'heading'
+
+
+-> that is why in react when html is written (JSX) we use "className" not "class"
+___________________________________________________________________________________________________________________________
+
+
+document.getElementById('title').getAttribute('id')
+'title'
+document.getElementById('title').getAttribute("class")
+'heading'
+
+👇  this "setAttribute" overwrites the class 
+document.getElementById('title').setAttribute("class", 'header')
+
+
+                                                            ***
+👇  agar purani class ka name chahiye toh purana class name aur naya class name dono pass krna pdenga
+document.getElementById('title').setAttribute("class", 'heading header')
+___________________________________________________________________________________________________________________________
+
+when you provide styling in your console it gets directly added as inline css
+
+title.style.borderRadius = "50px"
+'50px'
+title.style.fontSize = "2.5rem"
+'2.5rem'
+title.style.fontSize = "250px"
+'250px'
+___________________________________________________________________________________________________________________________
