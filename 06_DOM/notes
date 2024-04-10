@@ -112,3 +112,8 @@ undefined
 turnGreen.style.backgroundColor = 'green'
 'green'
 
+
+->      you can also manipulate it
+
+turnGreen.innerText = "FOOTBALL"
+'FOOTBALL'
