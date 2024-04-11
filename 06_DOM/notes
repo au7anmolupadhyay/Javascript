@@ -135,3 +135,6 @@ undefined
 
 first[0].style.color="green"
 'green'
+
+
+jaise upar 4 list item the toh first[0] karke access lia, agar 4 nahi hote single hi hota fr bhi nodelist ko without explicity mentioning the index you cannot access the element or tag
