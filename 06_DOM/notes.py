@@ -138,3 +138,17 @@ first[0].style.color="green"
 
 
 jaise upar 4 list item the toh first[0] karke access lia, agar 4 nahi hote single hi hota fr bhi nodelist ko without explicity mentioning the index you cannot access the element or tag
+
+
+const tmp = document.querySelectorAll('li')
+
+tmp
+NodeList(4) [li, li, li, li]
+
+// for each takes a callback function
+
+tmp.forEach(function (l){
+    l.style.color ='green'})
+_______________________________________________________________________________________________________________________________
+
+document.getElementByClassName
