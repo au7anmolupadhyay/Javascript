@@ -152,3 +152,8 @@ tmp.forEach(function (l){
 _______________________________________________________________________________________________________________________________
 
 document.getElementByClassName
+
+it returns you HTML collection where no functions are for loops (check kar skte hai ki hai ya nahi on console.)
+
+therefore we need to convert HTML collection it into an array!
+
