@@ -78,6 +78,8 @@ para.innerHTML
 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis beatae asperiores id commodi optio? <span style="display: none;">Cristiano Ronaldo</span> '
 ___________________________________________________________________________________________________________________________
 
+UNDERSTAND imp* you need to understand that querySelector is an expensive process as it iterates through the whole DOM, therefore DOM is a tree(DSA), so here you need to optimize, but before this you need to understand the product
+
 document.querySelector      -> this selector only selects the first one not all
 
 
