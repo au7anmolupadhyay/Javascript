@@ -154,6 +154,14 @@ ________________________________________________________________________________
 document.getElementByClassName
 
 it returns you HTML collection where no functions are for loops (check kar skte hai ki hai ya nahi on console.)
-
 therefore we need to convert HTML collection it into an array!
+
+const tempp = document.getElementsByClassName('list-item')      👈this returns you HTML collection
+
+const newArr = Array.from(tempp)        👈 this converts the tempp (HTML collection) into the array
+
+*👇  now you can implement forEach 
+
+newArr.forEach( (i)=>{
+    console.log(i)})
 
