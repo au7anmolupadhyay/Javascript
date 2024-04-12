@@ -164,4 +164,6 @@ const newArr = Array.from(tempp)        👈 this converts the tempp (HTML colle
 
 newArr.forEach( (i)=>{
     console.log(i)})
+_______________________________________________________________________________________________________________________________
+
 
