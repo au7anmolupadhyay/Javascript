@@ -6,8 +6,8 @@
 // console.log(typeof score);
 // console.log(typeof (score));
 
-// // const value = Number(score);
-// // console.log(typeof(value));
+// const value = Number(score);
+// console.log(typeof(value));
 
 // //suppose we change it the score to "77abc" and then convert it into number, what will it print then when asked the type of : Eg 👇
 
@@ -17,7 +17,7 @@
 // console.log(typeof rnk);
 // console.log(rnk);
 
-// //                             therefore here we are getting  "NaN" when asked tyoe of "12abc"
+// //                             therefore here we are getting  "NaN" when asked type of "12abc"
 
 
 // /*
@@ -35,8 +35,8 @@
 
 
 
-let value = 7;
-let neg = -value;
+// let value = 7;
+// let neg = -value;
 
 // console.log(neg);
 
@@ -53,14 +53,14 @@ let neg = -value;
 // console.log(f_name + s_name);
 
 
-console.log(1 + "2");
-console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2);
 
 
 //  how js understands that it should be 12 
 
-console.log("1" + 2 + 2);         // 122
-console.log(1 + "2" + 2);         // 122
-console.log(1 + 2 + "2");         // 32
+// console.log("1" + 2 + 2);         // 122
+// console.log(1 + "2" + 2);         // 122
+// console.log(1 + 2 + "2");         // 32
 
 // because of ecmascript type conversions
