@@ -18,12 +18,13 @@
     // *** IMPORTANT
     function addLang(lang){
         const li = document.createElement('li')
-        li.innerHTML = `${lang}`
+        li.innerText = `${lang}`        
+        // li.innerHTML = `${lang}`        
 
         document.querySelector('.language').appendChild(li);
     }
 
-    //👆 yeh jo function hai isme ek dikkat hai ki hum use kr rhe hai append child, aur appendchild kya krta haii traverse krta hai till the end to add the new element or child to add, yahan par toh hum par ek hi pehle se data tha i.e. "javascript" but agar 1 lakh data hota fr, use poora iterate krna padta till the end jo ek optimized way nahi hai aur issue create kr skta hai      to get through this weakness we can do in another way
+    //👆 yeh jo function hai isme ek dikkat hai ki hum use kr rhe hai append child, aur appendchild kya krta haii traverse krta hai till the end to add the new element or child to add, yahan par toh hum par ek hi pehle se data tha i.e. "javascript" but agar 1 lakh data hota fr, use poora iterate krna padta till the end jo ek optimized way nahi hai aur issue create kr skta hai      to get through this issue we can do it in another way
 
     addLang("Python")
     addLang("TypeScript")
