@@ -40,5 +40,26 @@
 
     OptAddLang("golang")
 
+
+
+
+
+    //                                                     EDIT
+/*
+    steps->
+
+    1. select the element you want to edit
+    2. create Element you want to update as you are going to replace it
+    3. enter content you want to update
+    4. replace it with the element you selected at step 1
+*/
+
+    const upd = document.querySelector('li:nth-child(2)')
+    const li = document.createElement('li')
+    li.textContent = "blahblah"
+    upd.replaceWith(li)
+    
+    
+
 </script>
 </html>
