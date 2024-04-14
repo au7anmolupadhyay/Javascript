@@ -9,6 +9,9 @@
     
 </body>
 <script>
+
+//How to add new element using js
+
     const div = document.createElement('div')
     console.log(div);
     div.className = "Main"
@@ -17,7 +20,10 @@
     div.setAttribute("title",'DOM Manipulation')    // as compared to innerText setAttribute directly changes the data from the HTML document
     div.style.backgroundColor="green"
     div.style.padding="15px"
+
+
     div.innerText = "thoda Javascript padhlo"       // it is not optimized way as it overwrites, first brings them and then overwrites on it
+
     const addText = document.createTextNode("document object model manipulation")       // so they prefer this
     div.appendChild(addText);
     document.body.appendChild(div)
