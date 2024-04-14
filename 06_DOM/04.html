@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+
+<!-- create a function to add language in the list -->
+
+<script>
+
+    // *** IMPORTANT
+    function addLang(lang){
+        const li = document.createElement('li')
+        li.innerHTML = `${lang}`
+
+        document.querySelector('.language').appendChild(li);
+    }
+
+    //👆 yeh jo function hai isme ek dikkat hai ki hum use kr rhe hai append child, aur appendchild kya krta haii traverse krta hai till the end to add the new element or child to add, yahan par toh hum par ek hi pehle se data tha i.e. "javascript" but agar 1 lakh data hota fr, use poora iterate krna padta till the end jo ek optimized way nahi hai aur issue create kr skta hai      to get through this weakness we can do in another way
+
+    addLang("Python")
+    addLang("TypeScript")
+
+
+    //OPTIMIZED WAY TO ADD
+    
+    function OptAddLang(lang){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(lang))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    OptAddLang("golang")
+
+</script>
+</html>
