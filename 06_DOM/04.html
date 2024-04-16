@@ -54,12 +54,20 @@
     4. replace it with the element you selected at step 1
 */
 
+//  one way of editing
     const upd = document.querySelector('li:nth-child(2)')
     const li = document.createElement('li')
     li.textContent = "blahblah"
     upd.replaceWith(li)
-    
-    
 
+// second way of editing
+
+    const newli = document.querySelector("li:nth-child(1)")
+    newli.outerHTML="<li>Ruby</li>"       // in outerHTML you have to mention with all html tags
+ 
+//                                              REMOVE
+
+    const last = document.querySelector('li:nth-child(4)')
+    last.remove();
 </script>
 </html>
