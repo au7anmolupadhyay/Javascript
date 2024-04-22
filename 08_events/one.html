@@ -41,8 +41,9 @@ document.getElementById('owl').addEventListener('click', (e) => {
     console.log('owl clicked!');
 }, false);
 
-document.getElementById('google').addEventListener('dblclick', (e)=>{
+document.getElementById('google').addEventListener('click', (e)=>{
     e.preventDefault()
+    e.stopPropagation()
     console.log("google was clicked!")
 })
 
