@@ -52,9 +52,11 @@ document.querySelector('#images').addEventListener('click', (e) => {
     let removeElement = e.target.parentNode
     // removeElement.remove()       //  one way of removing
 
-    
+    if(e.target.tagName === 'IMG'){
+        removeElement.parentNode.removeChild(removeElement);  
+    }
 
-    removeElement.parentNode.removeChild(removeElement);        // it is confusing but lets understand  ->  here when we initialized and declared removeElement variable we got parentNode, but while removing we want to remove the <li> so that the bullet point also remains there so, we again applied "parentNode" we got <ul> then we applied "removeChild" then <li> gets removed
+    //removeElement.parentNode.removeChild(removeElement);        // it is confusing but lets understand  ->  here when we initialized and declared removeElement variable we got parentNode, but while removing we want to remove the <li> so that the bullet point also remains there so, we again applied "parentNode" we got <ul> then we applied "removeChild" then <li> gets removed
 
     
 
