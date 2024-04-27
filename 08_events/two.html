@@ -20,12 +20,18 @@
     //     console.log("Anmol Upadhyay")
     // }, 2000)
 
-    setTimeout(printt, 2000)        // here you cannot pass "printt" function like "printt()" therefore you have to only give reference for it like this -> "print"
+    //setTimeout(printt, 2000)        // here you cannot pass "printt" function like "printt()" therefore you have to only give reference for it like this -> "print"
 
     // setInterval(printt, 1000)
 
     // setInterval((e) => {
     //     console.log("shik shak shoke")
     // },3000)
+
+    const changeTxt = () => {
+        document.querySelector('h1').innerHTML = 'I want to sleep!';    // innerHTML ke sath "=" iise kro
+    } 
+    setTimeout(changeTxt, 5000)
+
 </script>
 </html>
