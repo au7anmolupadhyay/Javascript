@@ -11,9 +11,18 @@
     <button>Cancel </button>
 </body>
 <script>
-    setTimeout((e) => {
-        console.log("Anmol Upadhyay")
-    }, 2000)
+
+    function printt(){
+        console.log("setTimeout working!")
+    }
+
+    // setTimeout((e) => {
+    //     console.log("Anmol Upadhyay")
+    // }, 2000)
+
+    setTimeout(printt, 2000)        // here you cannot pass "printt" function like "printt()" therefore you have to only give reference for it like this -> "print"
+
+    // setInterval(printt, 1000)
 
     // setInterval((e) => {
     //     console.log("shik shak shoke")
