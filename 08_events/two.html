@@ -31,7 +31,13 @@
     const changeTxt = () => {
         document.querySelector('h1').innerHTML = 'I want to sleep!';    // innerHTML ke sath "=" uses kro
     } 
-    setTimeout(changeTxt, 5000)
+    const refChangeTxt = setTimeout(changeTxt, 5000)
+
+    // "clearTimeout"  this helps in stopping the setTimeout function from functioning, to use this you need to pass the reference of the "setTimeout" you have created.
+
+    
+
+    
 
 </script>
 </html>
