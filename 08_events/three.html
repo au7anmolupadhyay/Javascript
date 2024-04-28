@@ -11,11 +11,22 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    
 
-   setInterval(function(){
-    console.log("AU7", Date.now())
-   }, 1000)
+    const func = function(str){
+        console.log(str, Date.now());
+    }
+
+    // setInterval(func, 1000, "Anmol")     
+    // 👆 reference pass kara hai isly function ki argument uski time ke baad likhi hai 
+
+    
+    // 👇 isme reference ki jagah execution kara "()" lagaya hai isly wo sirf ek baar hi execute hora hai.
+    const funct = function(){
+        console.log("blah blah");
+    }
+    // setInterval(funct(),2000)
+
+   
 
 </script>
 </html>
