@@ -7,8 +7,8 @@
     <title>Events</title>
 </head>
 <body>
-    <h1>Code with Mr. Anmol</h1>
-    <button>Cancel </button>
+    <h1 id="heading">Code with Mr. Anmol</h1>
+    <button id="stop">Cancel </button>
 </body>
 <script>
 
@@ -35,8 +35,15 @@
 
     // "clearTimeout"  this helps in stopping the setTimeout function from functioning, to use this you need to pass the reference of the "setTimeout" you have created.
 
-    
+    //clearTimeout(refChangeTxt);        // ab aise hi apply krdenge toh chalega hi nahi humara "setTimeout" isly isko kisi event ke sath attach krte hai so that we know the logic as well as the use case!
 
+    document.querySelector('#stop').
+    addEventListener('click', ()=>{
+        console.log("stopped!")
+        clearTimeout(refChangeTxt);
+    })
+
+    //  👆 here when this cancel button was clicked, clearTimeout function was executed therefore stopping the setTimeout to function.
     
 
 </script>
