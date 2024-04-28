@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>start-stop</title>
+  </head>
+  <body>
+    <h1 id="heading">learn js with au7</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+  </body>
+
+  <script>
+    
+    document.getElementById("start").addEventListener("click", function () {
+      const str = function () {
+        console.log("started!");
+      };
+      const toStart = setInterval(str, 1000, (click = start));
+
+      document.getElementById("stop").addEventListener("click", function () {
+        clearInterval(toStart);
+        console.log("stopped!")
+      });
+    });
+
+  </script>
+</html>
