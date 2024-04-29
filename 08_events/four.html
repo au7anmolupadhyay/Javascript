@@ -13,20 +13,37 @@
 
   <script>
 
-    // generating random colors
-    const hex = (Math.floor(Math.random()*1000000))
-    const color = '#' + hex
-    console.log(color)
+    // generating random 
+    const hex = function(){
+      const code = (Math.floor(Math.random()*1000000))
 
-
+      return '#'+ code
+    }
+    
     // const add = document.querySelector('body').style.backgroundColor = color;
+// __________________________________________________________________________________________________________________
 
     // adding logic of applying color change
+
+    let startInt;
+    const funStart = function(){
+      startInt = setInterval(chngeBG, 1000)
+      
+      function chngeBG(){
+        document.body.style.backgroundColor = hex()
+      }
+    }
     
-
-
-
+    function stopBG(){
+      clearInterval(startInt);
+    }
     
+    const start = document.getElementById('start').addEventListener('click', funStart);
+    const stop = document.getElementById('stop').addEventListener('click', stopBG)
+
+
+
+
     
   </script>
 </html>
