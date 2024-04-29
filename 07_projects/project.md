@@ -61,10 +61,12 @@ function changeBG() {
 
 function stopBG() {
   clearInterval(startInt);
+  startInt = null;
 }
 
 
 document.querySelector('#start').addEventListener('click', changeBG);
 document.querySelector('#stop').addEventListener('click', stopBG);
+
 ```
 
