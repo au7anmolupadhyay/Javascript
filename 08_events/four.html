@@ -12,18 +12,21 @@
   </body>
 
   <script>
+
+    // generating random colors
+    const hex = (Math.floor(Math.random()*1000000))
+    const color = '#' + hex
+    console.log(color)
+
+
+    // const add = document.querySelector('body').style.backgroundColor = color;
+
+    // adding logic of applying color change
     
-    document.getElementById("start").addEventListener("click", function () {
-      const str = function () {
-        console.log("started!");
-      };
-      const toStart = setInterval(str, 1000, (click = start));
 
-      document.getElementById("stop").addEventListener("click", function () {
-        clearInterval(toStart);
-        console.log("stopped!")
-      });
-    });
 
+
+    
+    
   </script>
 </html>
