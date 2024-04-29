@@ -31,3 +31,40 @@ buttons.forEach(function (button){
         }
     })
 })
+```
+
+# Project 6
+
+## Start-Stop Color Generator
+
+``` javascript
+
+/* generating random colors
+_______________________________________________________*/
+function hex() {
+  let code = Math.floor(Math.random() * 1000000);
+  code = '#' + code;
+
+  return code;
+}
+
+/* adding logic 
+_______________________________________________________*/
+let startInt;
+function changeBG() {
+  startInt = setInterval(color, 1000);
+
+  function color() {
+    document.body.style.backgroundColor = hex();
+  }
+}
+
+function stopBG() {
+  clearInterval(startInt);
+}
+
+
+document.querySelector('#start').addEventListener('click', changeBG);
+document.querySelector('#stop').addEventListener('click', stopBG);
+```
+
