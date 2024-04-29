@@ -52,7 +52,9 @@ function hex() {
 _______________________________________________________*/
 let startInt;
 function changeBG() {
-  startInt = setInterval(color, 1000);
+  if(!startInt){      // it checks if startInt is null or not, if not then setInterval gets started. basically did this for memory management(minimal)
+    startInt = setInterval(color, 1000);
+  }
 
   function color() {
     document.body.style.backgroundColor = hex();
