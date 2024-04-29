@@ -27,7 +27,9 @@
 
     let startInt;
     const funStart = function(){
-      startInt = setInterval(chngeBG, 1000)
+      if(!startInt){
+        startInt = setInterval(chngeBG, 1000)
+      }
       
       function chngeBG(){
         document.body.style.backgroundColor = hex()
@@ -36,6 +38,7 @@
     
     function stopBG(){
       clearInterval(startInt);
+      startInt = null;
     }
     
     const start = document.getElementById('start').addEventListener('click', funStart);
