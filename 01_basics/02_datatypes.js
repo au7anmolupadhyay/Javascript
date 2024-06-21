@@ -1,7 +1,7 @@
 
 
 
-"use strict"// this ensure the js uses the lates version
+"use strict"// this ensure the js uses the latest version
 
 //alert(3+3)   cannot use alert here as it is a node file(as it runs on V8 JS engine ) and not working on web browswer
 
